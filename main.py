@@ -1,0 +1,48 @@
+print('Загружаем нужные библиотеки...')
+import pandas as pd
+
+from sys import argv
+import timeit
+
+from final_code.utils import test_data, predict_gender
+
+
+try:
+    file_path_test = argv[1]
+except:
+    file_path_test = input(
+        'Передайте путь к json-файлу, (например, ./data/initial_data/test.json): '
+    )
+    if file_path_test == '': file_path_test = './data/initial_data/test.json'
+
+
+df_test = pd.read_json(file_path_test)
+
+print('Активируем функции для парсинга данных и выполняем парсинг...')
+start_time = timeit.default_timer()
+
+df_test = test_data(df_test)
+
+print('Приступаем к предсказаниям...')
+start_time_block1 = timeit.default_timer()
+
+df_check_test = pd.DataFrame()
+df_check_test['id'] = df_test['user_id']
+# Применение функции к DataFrame
+df_check_test['predict_gender'] = df_test.apply(predict_gender, axis=1)
+
+print('Магия произошла:')
+
+print(df_check_test.head())
+
+df_check_test.to_csv('./data/predict_result.csv', index=False)
+
+end_time_block1 = timeit.default_timer()
+execution_time_block1 = round(end_time_block1 - start_time_block1, 2)
+print(f'Время выполнения предсказания: {execution_time_block1} секунд')
+
+end_time = timeit.default_timer()
+execution_time = round((end_time - start_time), 2)
+print(f'Общее время выполнения блока кода: {execution_time} секунд')
+
+print('Результаты записаны в ./data/predict_result.csv')

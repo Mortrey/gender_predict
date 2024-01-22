@@ -1,0 +1,25 @@
+id,male,female
+other,62416,63176
+electronics,35223,30532
+hypermarket,30217,28210
+education,13687,16964
+insurance,6779,5571
+fashion,16852,24432
+bank,28305,22006
+pets,4366,8980
+cosmetics,13621,25971
+entertainment_services,21604,26139
+health,9191,15316
+media,20004,19843
+furniture,12599,17579
+shoes,4811,8511
+travel,9240,12407
+household_appliances,9481,6840
+food,15524,17601
+kids,6976,13786
+luxury,6532,9509
+gifts,3764,6847
+dealoftheday,2696,3614
+sport,3085,4123
+software,354,181
+"""0"" => ""f"", ""1"" => ""a"", ""2"" => ""s"", ""3"" => ""h"", ""4"" => ""i"", ""5"" => ""o"", ""6"" => ""n""",0,3

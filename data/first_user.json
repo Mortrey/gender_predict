@@ -1,0 +1,298 @@
+{
+  "user_155203": {
+    "features": {
+      "visits": [
+        {
+          "site-id": 20,
+          "first-seen": 1696602038,
+          "last-seen": 1698067438,
+          "visits": [
+            {
+              "visited-at": 1696602038,
+              "session-duration": 130,
+              "pages-count": 1,
+              "visited-items": [
+                "item_2640056"
+              ]
+            },
+            {
+              "visited-at": 1697108635,
+              "session-duration": 0,
+              "pages-count": 1
+            },
+            {
+              "visited-at": 1698067438,
+              "session-duration": 0,
+              "pages-count": 1
+            }
+          ]
+        },
+        {
+          "site-id": 3,
+          "first-seen": 1691508133,
+          "last-seen": 1698727983,
+          "visits": [
+            {
+              "visited-at": 1691508133,
+              "session-duration": 0,
+              "pages-count": 1
+            },
+            {
+              "visited-at": 1696602183,
+              "session-duration": 0,
+              "pages-count": 1
+            },
+            {
+              "visited-at": 1696840476,
+              "session-duration": 0,
+              "pages-count": 1
+            },
+            {
+              "visited-at": 1697429756,
+              "session-duration": 0,
+              "pages-count": 1
+            },
+            {
+              "visited-at": 1698727983,
+              "session-duration": 0,
+              "pages-count": 1
+            }
+          ]
+        },
+        {
+          "site-id": 13,
+          "first-seen": 1696602542,
+          "last-seen": 1697429935,
+          "visits": [
+            {
+              "visited-at": 1696602542,
+              "session-duration": 439,
+              "pages-count": 2
+            },
+            {
+              "visited-at": 1696906818,
+              "session-duration": 588,
+              "pages-count": 9
+            },
+            {
+              "visited-at": 1697429935,
+              "session-duration": 194,
+              "pages-count": 3
+            }
+          ]
+        },
+        {
+          "site-id": 21,
+          "first-seen": 1698341870,
+          "last-seen": 1698341870,
+          "visits": [
+            {
+              "visited-at": 1698341870,
+              "session-duration": 79,
+              "pages-count": 2
+            }
+          ]
+        },
+        {
+          "site-id": 34,
+          "first-seen": 1697565034,
+          "last-seen": 1698638536,
+          "visits": [
+            {
+              "visited-at": 1697565034,
+              "session-duration": 506,
+              "pages-count": 5,
+              "visited-items": [
+                "item_105181",
+                "item_724"
+              ],
+              "visited-general-categories": [
+                "91157",
+                "15927546",
+                "90509"
+              ],
+              "visited-universal-brands": [
+                "502"
+              ]
+            },
+            {
+              "visited-at": 1698637710,
+              "session-duration": 0,
+              "pages-count": 1
+            },
+            {
+              "visited-at": 1698638536,
+              "session-duration": 682,
+              "pages-count": 13
+            }
+          ]
+        },
+        {
+          "site-id": 29,
+          "first-seen": 1694406521,
+          "last-seen": 1694406521,
+          "visits": [
+            {
+              "visited-at": 1694406521,
+              "session-duration": 0,
+              "pages-count": 1,
+              "visited-items": [
+                "item_1511812"
+              ],
+              "visited-general-categories": [
+                "1558993",
+                "198119",
+                "14960839"
+              ],
+              "visited-universal-brands": [
+                "24903"
+              ]
+            }
+          ]
+        }
+      ],
+      "site-meta": [
+        {
+          "site-id": 21
+        },
+        {
+          "site-id": 34
+        },
+        {
+          "site-id": 20
+        },
+        {
+          "site-id": 42
+        },
+        {
+          "site-id": 33
+        }
+      ],
+      "exchange-sessions": [
+        {
+          "landed-at": 1696602182,
+          "sites": [
+            13,
+            537,
+            217,
+            445,
+            223,
+            222,
+            71,
+            218,
+            221,
+            406,
+            303,
+            450,
+            234,
+            506,
+            376,
+            79,
+            280,
+            476,
+            226,
+            7,
+            11,
+            404,
+            269,
+            246,
+            255,
+            301,
+            228,
+            242,
+            405,
+            252,
+            732,
+            408,
+            282,
+            512,
+            322,
+            240,
+            245,
+            236,
+            413,
+            307,
+            225,
+            207,
+            272,
+            241,
+            238,
+            279,
+            574,
+            262,
+            417,
+            511,
+            447,
+            402,
+            573,
+            267,
+            505,
+            62,
+            572,
+            6,
+            571,
+            409,
+            273,
+            49,
+            268,
+            401,
+            128,
+            499,
+            507,
+            508,
+            31,
+            375,
+            289,
+            48,
+            297,
+            305,
+            317,
+            679,
+            227,
+            68,
+            291,
+            414,
+            125,
+            292,
+            302,
+            411,
+            569,
+            101,
+            281,
+            138
+          ],
+          "clicks": [
+            {
+              "clicked-at": 1696602381,
+              "site-id": 13
+            }
+          ],
+          "accepted-site-id": 13,
+          "accepted-at": 1696602399
+        }
+      ],
+      "last-visits-in-categories": [
+        {
+          "category": "hypermarket",
+          "last-visit-at": 1698341870
+        },
+        {
+          "category": "other",
+          "last-visit-at": 1698727983
+        },
+        {
+          "category": "media",
+          "last-visit-at": 1697429935
+        },
+        {
+          "category": "electronics",
+          "last-visit-at": 1694406521
+        },
+        {
+          "category": "cosmetics",
+          "last-visit-at": 1698638536
+        }
+      ]
+    }
+  }
+}

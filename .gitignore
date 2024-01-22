@@ -1,0 +1,4 @@
+data/initial_data/
+.idea/
+**/__pycache__/
+**/.ipynb_checkpoints
